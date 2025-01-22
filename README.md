@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Proiect pentru teza de an care v-a include un set de teste automatizate pentru un site de cumparaturi.
 
 1.login page (Autentificare și deconectare)
@@ -150,3 +151,7 @@ Pași:
 Navighează la secțiunea de dezactivare a contului.
 Confirmă acțiunea.
 Rezultat așteptat: Contul este dezactivat.
+=======
+# Test_practic-teza
+Test_practic teza
+>>>>>>> d7d89595666d60e2da1dadebb5e0c3a3ac60c832
