@@ -30,8 +30,6 @@ test("Create an Account with Random Data", async ({ page }) => {
   const lastName = generateRandomString(7); // Prenume random de 7 caractere
   const email = generateRandomEmail(); // Email random
   const password = generateRandomPassword(); // Parolă random
-
-  // Pașii pentru testare
   await page.goto("https://magento.softwaretestingboard.com/");
   await page.getByRole("link", { name: "Create an Account" }).click();
   await page.getByLabel("First Name").fill(firstName);
