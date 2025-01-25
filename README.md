@@ -65,35 +65,40 @@ Rezultat așteptat: Adresa este completata cu succes
 
 
 3.Checkout  (Procesul de checkout)
-TC1: Checkout complet cu date valide
+TC1: Checkout complet cu un utilizator nou creat
 Pași:
+Creaza un cont nou
 Adaugă un produs în coș.
 Mergi la pagina de checkout.
 Completează toate câmpurile obligatorii cu date valide.
 Apasă pe "Place Order".
 Rezultat așteptat: Comanda este plasată cu succes.
-TC2: Mesaje de eroare pentru câmpuri necompletate
+TC2:Checkout complet cu un utilizator existent
+Logare cu un utilizator existent
+Adaugă un produs în coș.
+Mergi la pagina de checkout.
+Apasa "Place order"
+Continua cumparaturile
+TC3: Mesaje de eroare pentru câmpuri necompletate
 Pași:
+Creaza un cont nou
+Adaugă un produs în coș.
 Navighează la pagina de checkout.
 Lasă toate câmpurile goale.
-Apasă pe "Place Order".
+Apasă pe "Next".
 Rezultat așteptat: Sunt afișate mesaje de eroare pentru fiecare câmp necompletat.
-TC3: Validarea câmpului de email
+TC4: Plasarea unei comenzi cu un discount cod invalid
 Pași:
-Completează câmpul de email cu o adresă invalidă.
+Logheazate cu un user existent
 Apasă pe "Place Order".
-Rezultat așteptat: Este afișat un mesaj de eroare: "Email invalid."
-TC4: Alegerea metodei de plată
-Pași:
-Completează toate câmpurile.
-Alege o metodă de plată.
-Plasează comanda.
-Rezultat așteptat: Comanda este plasată cu metoda de plată selectată.
+Introdu discount cod gresit 
+Sterge discount si plaseaza comanda
+Rezultat așteptat:Este afisat un mesaj de eroare, dar Comanda este plasata fara discount
 TC5: Salvarea informațiilor de livrare
 Pași:
-Completează câmpurile de livrare.
-Bifează "Save this address for future orders".
-Finalizează comanda.
+Creaza un nou user
+Navigheaza la "manage address" si completeaza campurile
+Bifează "Save".
 Rezultat așteptat: Adresa este salvată pentru comenzi viitoare.
 4.Search field (Funcționalitatea de căutare)
 TC1: Căutare cu termen valid

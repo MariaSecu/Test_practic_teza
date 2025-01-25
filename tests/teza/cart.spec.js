@@ -67,7 +67,7 @@ test('remove an item', async ({ page }) => {
     await page.getByLabel('store logo').click();
   });
 
-  test('4', async ({ page }) => {
+  test('Add a product in shopping cart and complet the address', async ({ page }) => {
     const firstName = generateRandomString(7); // Nume random de 7 caractere
     const lastName = generateRandomString(7); // Prenume random de 7 caractere
     const email = generateRandomEmail(); // Email random

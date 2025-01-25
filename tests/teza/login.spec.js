@@ -99,20 +99,6 @@ test("Verify reset password message", async ({ page }) => {
   );
   await expect(resetMessage).toBeVisible();
 });
-// test.only('test', async ({ page }) => {
-//     await page.goto('https://magento.softwaretestingboard.com/');
-//     await page.getByRole('link', { name: 'Sign In' }).click();
-//     await page.getByLabel('Email', { exact: true }).click();
-//     await page.getByLabel('Email', { exact: true }).fill('anadream@gmail.com');
-//     await page.getByLabel('Password').click();
-//     await page.getByLabel('Password').fill('Tezatest2024');
-//     await page.getByText('If you have an account, sign in with your email address. Email Password Sign In').click();
-//     await page.getByRole('button', { name: 'Sign In' }).click();
-//     await page.getByRole('banner').getByText('Welcome, Ana Dream! Change My').click();
-//     await page.getByRole('banner').locator('button').filter({ hasText: 'Change' }).click();
-//     await page.getByRole('link', { name: 'Sign Out' }).click();
-//     await page.getByText('You are signed out').click();
-//   });
 
 test('Verify sign out message', async ({ page }) => {
     // Navighează la pagina principală
