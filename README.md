@@ -106,9 +106,9 @@ Pași:
 Introdu un termen valid în bara de căutare.
 Apasă pe "Search".
 Rezultat așteptat: Rezultatele relevante sunt afișate.
-TC2: Căutare fără rezultate
+TC2: Căutare fără rezultate si fara a fi logat
 Pași:
-Introdu un termen inexistent.
+Introdu un termen inexistent pe site.
 Apasă pe "Search".
 Rezultat așteptat: Este afișat un mesaj: "No results found."
 TC3: Căutare cu filtre
@@ -116,16 +116,18 @@ Pași:
 Introdu un termen în bara de căutare.
 Aplică filtre (ex. categorie sau preț).
 Rezultat așteptat: Rezultatele sunt filtrate corect.
-TC4: Căutare cu câmp gol
+TC4: Căutarea unui termen care contine un caracter special
 Pași:
-Lasă bara de căutare goală.
+Creaza un user nou
+Introdu in bara de cautare un termen care contine un caracter special.
 Apasă pe "Search".
-Rezultat așteptat: Este afișat un mesaj de eroare: "Please enter a search term."
-TC5: Verificarea sugestiilor din timpul scrierii
+Rezultat așteptat: Este afișat un mesaj de eroare: "Your search returned no results."
+TC5: Cautarea unui produs prin introducerea unui singur caracter
 Pași:
-Introdu un termen parțial.
-Observă sugestiile afișate.
-Rezultat așteptat: Sunt afișate sugestii relevante.
+Introdu un caracter in bara de cautare.
+Apasă pe "Search".
+Este afisat un mesaj de eroare
+Rezultat așteptat: Este afisat un mesaj de eroare sugestiv "Minimum Search query length is 3"
 5.Profile pagejs (Pagina de profil)
 TC1: Editarea informațiilor personale
 Pași:

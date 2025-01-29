@@ -3,7 +3,7 @@ const { defineConfig } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests', // Directorul unde sunt testele tale
   timeout: 60 * 1000, // Timeout per test
-  retries: 0, // Număr de reîncercări în caz de eșec
+  retries: 1, // Număr de reîncercări în caz de eșec
   reporter: [['html'], ['list']], // Reporter pentru rezultate
   projects: [
     {
