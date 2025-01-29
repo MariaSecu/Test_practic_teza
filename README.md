@@ -140,11 +140,11 @@ Navighează la secțiunea de schimbare a parolei.
 Introdu parola veche și o parolă nouă.
 Salvează modificările.
 Rezultat așteptat: Parola este schimbată.
-TC3: Validarea câmpurilor goale
+TC3: Validarea unei adrese "Default"
 Pași:
 Navighează la pagina de profil.
-Lasă câmpurile goale și apasă pe "Save".
-Rezultat așteptat: Este afișat un mesaj de eroare.
+Completeaza campurile pentru adresa
+Rezultat așteptat: O noua adresa default este setata.
 TC4: Upload poza de profil
 Pași:
 Navighează la pagina de profil.
