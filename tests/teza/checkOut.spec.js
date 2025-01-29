@@ -136,7 +136,7 @@ test('TC4.Aply incorrect discount cod', async ({ page }) => {
   await page.getByRole('link', { name: 'Continue Shopping' }).click();
 });
 
-test.only('TC5.Manage address', async ({ page }) => {
+test('TC5.Manage address', async ({ page }) => {
   const firstName = generateRandomString(8); // Nume random de 8 caractere
     const lastName = generateRandomString(8); // Prenume random de 8 caractere
     const email = generateRandomEmail(); // Email random
